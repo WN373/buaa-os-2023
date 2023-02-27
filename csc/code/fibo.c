@@ -1,12 +1,12 @@
 #include <fibo.h>
-char fibo(char n) {
-	char a;
+int fibo(int n) {
+	int a;
 	char b;
-	char c;
+	int c;
 	if (n == 1) {
 		a = 1;
 	} else {
-		char i;
+		int i;
 		c = 0;
 		b = 1;
 		for (i = 2; i <= n; i++) {
