@@ -1,3 +1,5 @@
 #!/bin/bash
 
+touch $2
+
 
